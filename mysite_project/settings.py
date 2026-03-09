@@ -25,7 +25,12 @@ SECRET_KEY = '%q+1=#-nuge05ywfw9y2=v&ym0pg#y!k+6v(ko3lx4pi9n9o6^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'kiss-production-c21e.up.railway.app',
+    'localhost',
+    '127.0.0.1',
+    '.railway.app'
+]
 
 
 # Application definition
